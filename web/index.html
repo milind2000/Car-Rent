@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title> Car Renting Portal
+        </title>
+    </head>
+    <style>
+        a{
+            color:white;
+            text-decoration: none;
+        }
+   .aa{
+            font-family: fantasy;
+            font-size: 100px;
+            text-align: center;
+            }     
+        body {
+
+        background-repeat:no-repeat;
+        
+        }
+        .bb{
+            font-family: fantasy;
+            font-size: 25px;
+           
+           }
+           .nav{
+               font-size: 25px;
+               font-family: fantasy;
+               width: 10%;
+               padding-top: 15px;
+               border-radius: 50px;
+               font-weight: bold;
+               color:white;
+               
+           }
+           .nav:hover{
+               background-color:#d680c0  ;
+               
+           }
+               
+    </style>
+    <body background="back_1.jpg">
+        <div style="width: 100%; height:240px;background-color:white;opacity: 0.8">
+            <table width="100%">
+                <tr align="center">
+                    <td> <img src="car.gif" > </td>
+                    <td class="aa"> Online Car On-Rent Portal </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+           <table width="85%" align="center" >
+                <tr bgcolor="#DC143C" align="center">
+                    <td class="nav"> <a href="index.html" style="text-decoration:none"> Home </a> </td>
+                    <td class="nav"> <a href="aboutus.html" style="text-decoration:none"> About Us  </a> </td>
+                    <td class="nav"> <a href="rent.html" style="text-decoration:none"> Rent Your Car </a> </td>
+                    <td class="nav"> <a href="search.jsp" style="text-decoration:none">Search Rented Car </a> </td>
+                    <td class="nav"> <a href="views.html" style="text-decoration:none"> Your Views </a> </td>
+                    <td class="nav"> <a href="developer.html" style="text-decoration:none">About Developers </a> </td> 
+                </tr>
+            </table> 
+            <br>
+            <div style="border-radius:40px;width:90%;margin-left:90px;opacity: 0.8;background-color: white;height:600px">
+            
+            <table width="100%" cellspacing="10">
+                <tr align="center">
+                    <td width="30%">
+                        <form action="ALogic.jsp">
+            <table border="0" bgcolor="yellow" style=" margin-top:15px;border-radius:30px;" cellspacing="20" cellpadding="5">
+                <tr align="center">
+                    <td colspan="2"> <img src="admin.png" width="170px" heigth="230px" > </td>
+                </tr>
+                <tr align="center">
+                    <td class="bb" style="padding-top:10px"> <b>ADMIN ID</b> </td>
+                    <td> <input type="text" name="admin" placeholder="Enter ADMIN ID here" style="border-radius:10%;width:200px;height:30px;padding-left:20px;padding-right:20px;">  </td>
+                </tr>
+                <tr>
+                    <td class="bb" style="padding-top:20px"> <b> Password </b> </td>
+                    <td style="padding-left:20px"> <input type="password" name="apass" placeholder="Enter Password here" style="border-radius:10%;width:200px;height:30px;padding-left:20px;padding-right:20px;margin-right:20px;">  </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2">
+                        <input type="submit" value="Sign In" style="border-radius:20%;width:150px;height: 30px; background-color: #d680c0;color:white">
+                    </td>
+            
+                </table>
+                    </form>
+                    </td>
+                    <td width="40%"><img src="car1.gif" width="400px" height="250px"></td>
+                <td width="30%">
+                    <form action="ULogic.jsp">
+                    <table border="0" bgcolor="yellow" style="margin-top: 15px;border-radius:30px;" cellspacing="20" cellpadding="5">
+                <tr align="center">
+                    <td colspan="2"> <img src="user1.jpg" width="170px" heigth="230px"> </td>
+                </tr>
+                <tr align="center">
+                    <td class="bb" style="padding-top:20px"> <b>USER ID </b> </td>
+                    <td style="padding-left:20px"> <input type="text" name="user" placeholder="Enter USER ID here" style="border-radius:10%;width:200px;height:30px;padding-left:20px;padding-right:20px;margin-right:10px">  </td>
+                </tr>
+                <tr>
+                    <td class="bb" style="padding-top:20px"> <b> Password </b> </td>
+                    <td style="padding-left:20px"> <input type="password" name="upass" placeholder="Enter Password here" style="border-radius:10%;width:200px;height:30px;padding-left:20px;padding-right:20px;margin-right:20px">  </td>
+                </tr>
+                     <tr align="center">
+                         <td colspan="2">
+                        <input type="submit" value="Sign In" style="border-radius:20%;width:100px; heigth:35px; background-color: #d680c0;color:white">
+                        <input type="reset" value="Clear" style="border-radius:20%;width:100px; heigth:35px;background-color: #d680c0;color:white">
+                    </td>
+                     </tr>
+            </table>
+                    </form>
+                    </td>
+                </tr>
+               </table>
+            </div>
+        
+    </body>
+</html>

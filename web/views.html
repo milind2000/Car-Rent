@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title> Car Renting Portal
+        </title>
+    </head>
+    <style>
+        a{
+            color:white;
+            text-decoration: none;
+        }
+   .aa{
+            font-family: fantasy;
+            font-size: 100px;
+            text-align: center;
+            }     
+        body {
+
+        background-repeat:no-repeat;
+        
+        }
+        .bb{
+            font-family: fantasy;
+            font-size: 140px;
+            font-weight: bold;
+            text-align: center;
+           
+           }
+           .nav{
+               font-size: 25px;
+               font-family: fantasy;
+               width: 10%;
+               padding-top: 15px;
+               border-radius: 50px;
+               font-weight: bold;
+               color:white;
+               
+           }
+           .nav:hover{
+               background-color:#d680c0  ;
+               
+           }
+           .pa{
+               font-family: fantasy;
+               font-size: 40px;
+               background-color: white;
+               opacity: 0.8;
+               margin-left: 150px;
+               border-radius: 20px;
+               width: 85%;
+               height: 40%;
+               font-weight: bold;
+               
+           }
+           .tt{
+            font-family: fantasy;
+            font-size: 60px;
+            font-weight: bold;
+           }
+               
+    </style>
+    <body background="back_1.jpg">
+        <div style="width: 100%; height:240px;background-color:white;opacity: 0.8">
+            <table width="100%">
+                <tr align="center">
+                    <td> <img src="car.gif" > </td>
+                    <td class="aa"> Online Car On-Rent Portal </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+           <table width="85%" align="center" >
+                <tr bgcolor="#DC143C" align="center">
+                    <td class="nav"> <a href="index.html" style="text-decoration:none"> Home </a> </td>
+                    <td class="nav"> <a href="aboutus.html" style="text-decoration:none"> About Us  </a> </td>
+                    <td class="nav"> <a href="rent.html" style="text-decoration:none"> Rent Your Car </a> </td>
+                    <td class="nav"> <a href="search.jsp" style="text-decoration:none"> Display Rented Car </a> </td>
+                    <td class="nav"> <a href="views.jsp" style="text-decoration:none"> Your Views </a> </td>
+                    <td class="nav"> <a href="developer.html" style="text-decoration:none">About Developers </a> </td> 
+                </tr>
+            </table> 
+            <br>
+            <div>
+            <form action="AddView.jsp">
+              <table border="0" bgcolor="yellow" style="opacity: 0.8; margin-top:15px;margin-left:140px;width: 85%;border-radius:30px;" cellspacing="20" cellpadding="5">
+                <tr align="center">
+                      <td class="bb"> <b> Views!! </b> </td> 
+                      <td> <textarea name="views" placeholder="Enter your views here" style="border-radius:10%;width:600px;height:300px;padding-left:20px;padding-right:20px;font-size: 40px; font-family: fantasy;text-align: center"> </textarea> </td>
+                </tr>
+                <tr align="center">
+                    <td class="bb" style="padding-top:10px"> <b> Feedback!! </b> </td> <br>
+                <td> <textarea name="feedback" placeholder="Enter your feedback about our services and the rented cars here" style="border-radius:10%;width:600px;height:300px;padding-left:20px;padding-right:20px;font-size: 40px; font-family: fantasy;text-align: center"> </textarea> </td>
+                </tr>
+                <tr align="center">
+                    <td class="bb" style="padding-top:10px"> <b> Complains!! </b> </td> <br>
+                <td> <textarea name="complain" placeholder="Any Query or Complain please enter here" style="border-radius:10%;width:600px;height:300px;padding-left:20px;padding-right:20px;font-size: 40px; font-family: fantasy; text-align: center"> </textarea> </td>
+                </tr>
+
+                   <tr align="center">
+                         <td colspan="2">
+                        <input type="submit" value="Submit" style="width:150px; heigth:300px; background-color: #d680c0;color:white">
+                        <input type="reset" value="Clear" style="width:150px; heigth:300px;background-color: #d680c0;color:white">
+                    </td>
+              </table>
+            </form>
+            </div>    
+            
+    </body>
+</html>
